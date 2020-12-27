@@ -1,11 +1,12 @@
+" This vimrc is a combination a few other vimrc files plus some of my own additions.
+" Credit to https://github.com/physicsKnight/Vim-config/blob/master/init.vim and https://missing.csail.mit.edu/2020/files/vimrc.
+
 if empty(glob('~/.vim/autoload/plug.vim'))
   silent !curl -fLo ~/.vim/autoload/plug.vim --create-dirs
     \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
   autocmd VimEnter * PlugInstall --sync | source $MYVIMRC
 endif
 call plug#begin()
-" This vimrc is a combination a few other vimrc files plus some of my own additions.
-" Credit to https://github.com/physicsKnight/Vim-config/blob/master/init.vim and https://missing.csail.mit.edu/2020/files/vimrc.
 
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
