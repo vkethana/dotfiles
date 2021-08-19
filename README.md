@@ -3,7 +3,7 @@ Configuration files for programs such as vim.
 
 Currently contains files for:
 - Vim
-- Hyper.is 
+- bash
 
 # To-do:
 - Add configurations for other programs
